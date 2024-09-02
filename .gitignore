@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Test coverage
+coverage/
+
+# Jest cache
+.jest/
+
+# Output do TypeScript
+dist/
+
+# Configurações de ambiente
+.env
+.env.local
+.env.test
+.env.production
+
+# Cache do IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos específicos do projeto
+tmp/
+temp/
